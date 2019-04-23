@@ -35,7 +35,7 @@ static int hello_proc_show(struct seq_file *m, void *v) {
 	seq_printf(m, "+---------------------------\n"); 
 	seq_printf(m, "| Carné:201513696\n"); 
 	seq_printf(m, "| Nombre:Jhosef Cáceres\n"); 
-	seq_printf(m, "| Release: %s\n",utsname()->version);
+	seq_printf(m, "| Release:Debian 9");
 	seq_printf(m, "| Total ram MB: %i\n",total);
 	seq_printf(m, "| Memoria libre MB: %i\n",libre); 
 	seq_printf(m, "+---------------------------\n");
